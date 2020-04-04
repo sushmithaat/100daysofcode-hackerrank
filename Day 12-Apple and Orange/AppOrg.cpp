@@ -1,4 +1,7 @@
+//Problem link-https://www.hackerrank.com/challenges/apple-and-orange/problem
+
 #include <bits/stdc++.h>
+#include<iostream>
 
 using namespace std;
 
