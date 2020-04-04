@@ -1,5 +1,7 @@
-#include <bits/stdc++.h>
+//Problem link-https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem
 
+#include <bits/stdc++.h>
+#include<iostream>
 using namespace std;
 
 int main()
@@ -15,12 +17,14 @@ int main()
     for(int i=0;i<n;i++)
     {
         cin>>s[i];
-    }    
-    max=s[0];
+    } 
+    
+    max=s[0]; 
     min=s[0];
+    
     for(int i=1;i<n;i++)
     {
-        if(s[i]>max)
+        if(s[i]>max) 
         {
             max=s[i];
             maxc++;
