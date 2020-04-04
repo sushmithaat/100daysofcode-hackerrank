@@ -1,9 +1,12 @@
+//Problem link - https://www.hackerrank.com/challenges/pangrams/problem
+
 #include <bits/stdc++.h>
 #include<iostream>
 using namespace std;
 
 // Complete the pangrams function below.
-string pangrams(string s) {
+string pangrams(string s) 
+{
     int n=s.length();
 
     vector<bool> v(26,false);
